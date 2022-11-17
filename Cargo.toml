@@ -16,7 +16,7 @@ exclude = ["resources/"]
 maintenance = { status = "actively-developed" }
 
 [dependencies]
-bgfx-sys = "0.10"
+bgfx-sys = { git = "https://github.com/dgcole/bgfx-sys", branch = "main" }
 bitflags = "1.2"
 cfixed-string = "1.0"
 
